@@ -1,0 +1,25 @@
+{
+  "name": "mock-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ndzy01/mock-service.git",
+  "author": "张一 <2326962137@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx ts-node 8889.ts "
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mockjs": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.7",
+    "@types/mockjs": "^1.0.2",
+    "@types/node": "^14.0.20",
+    "typescript": "^3.9.6"
+  }
+}
